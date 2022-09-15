@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+width: 100%;
+height: 100vh;
+background-image: url(images/CryptoWallPaper.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.content {
+    display: flex;
+}
+
+.content {
+    display: flex;
+  }
+  
+  .content img {
+    margin-right: 10px;
+    display: block;
+    height: 120px;
+  }
+  
+  .content h3 {
+    color:goldenrod;
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  .content p {
+    margin: 0;
+    color:goldenrod;
+    font-size: large;
+  }
+
+  h2 {
+    color: gold;
+  }
+
+  .coin{
+    color: gold;
+  }
+
+  .coin img{
+    border-image-repeat: repeat;
+    height: 100px;
+  }
+
+  .coin-ticker{
+    right: 10%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+  }
+
+  .coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+
+  }
+
+  .coin img{
+width: 100px;
+margin-right: 50px;
+  }
+
+  .coin h3{
+    color: white;
+    font-size: 30px;
+  }
+
+  .coin p{
+    font-size: medium;
+    font-weight: bold;
+    font-size: 20px;
+  }
