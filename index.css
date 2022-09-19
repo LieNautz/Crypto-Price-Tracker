@@ -9,7 +9,7 @@
 .container{
 width: 100%;
 height: 100vh;
-background-image: url(images/CryptoWallPaper.jpg);
+background-image: url(images/sajad-nori-LWD60a5a15I-unsplash\(2\).jpg);
 background-position: center;
 background-size: cover;
 }
@@ -30,15 +30,17 @@ background-size: cover;
   margin-top: 20px;
   }
   
+
   .content h3 {
-    color:goldenrod;
+    color: goldenrod;
     margin-top: 20px;
     font-size: 25px;
   }
   .content p {
     margin: 0;
-    color:goldenrod;
-    font-size: large;
+    color:white;
+font-family: 'poppins' sans-serif;
+font-size: large;
   }
   
   nav {
@@ -56,7 +58,6 @@ nav ul li{
   display: inline-block;
   margin: 10px 20px;
   float: right;
-
 }
 
 nav ul li a{
@@ -65,8 +66,6 @@ nav ul li a{
   font-family: 'poppins' sans-serif;
   font-size: larger;
  }
-
-
 
   .coin{
     color: gold;
@@ -152,13 +151,14 @@ margin-right: 50px;
 .list-container h2{
   color: goldenrod;
   font-size: 35px;
+  margin-top: 50px;
 }
 
 #crypto-list {
   margin-top: 3%;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 thead{
@@ -168,7 +168,8 @@ thead{
 th {
   color: goldenrod;
   padding: 0 50px 0 50px;
-  font-size: larger;
+  font-size: 25px;
+
 }
 
 
