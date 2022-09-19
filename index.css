@@ -26,6 +26,8 @@ background-size: cover;
     margin-right: 10px;
     display: block;
     height: 120px;
+  padding: 10px;
+  margin-top: 20px;
   }
   
   .content h3 {
@@ -38,10 +40,33 @@ background-size: cover;
     color:goldenrod;
     font-size: large;
   }
-
-  h2 {
-    color: gold;
+  
+  nav {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
   }
+
+nav ul{
+  flex: 1;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 10px 20px;
+  float: right;
+
+}
+
+nav ul li a{
+  color: goldenrod;
+  text-decoration: none;
+  font-family: 'poppins' sans-serif;
+  font-size: larger;
+ }
+
+
 
   .coin{
     color: gold;
@@ -59,6 +84,8 @@ background-size: cover;
     align-items: center;
     justify-content: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
 
   }
 
@@ -85,3 +112,78 @@ margin-right: 50px;
     font-weight: bold;
     font-size: 20px;
   }
+
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+#searchBar {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+ margin: 50px 0 10px 0;
+  background-color: goldenrod ;
+  
+}
+
+#searchBar input {
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  width: 620px;
+  font-size: 20px;
+  background: transparent;
+}
+
+
+.list-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.list-container h2{
+  color: goldenrod;
+  font-size: 35px;
+}
+
+#crypto-list {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+thead{
+  color: goldenrod;
+}
+
+th {
+  color: goldenrod;
+  padding: 0 50px 0 50px;
+  font-size: larger;
+}
+
+
+#crypto-list {
+  display: flex;
+  max-width: 80%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 3px goldenrod solid;
+ justify-content: space-evenly;
+  align-items: center;
+  margin-left: 10%;
+
+}
+
+th {
+  padding-right: 100px;
+}

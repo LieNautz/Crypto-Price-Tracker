@@ -20,59 +20,91 @@
                 <h3><strong>The Crypto Price Tracker</strong></h3>
                 <p>Tracking The Future of Blockchain Technolgy</p>
             </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a> </li>
+                    <li><a href="#faq">Frequently Asked Questions</a> </li>
+                    <li><a href="#donate">Donate</a> </li>
+                </ul>
+            </nav>
         </div>
 
         <div class="coin-ticker">
             <div class="coin">
                 <img src="./images/bitcoin.png">
                 <div>
-                    <h3>$00</h3>
+                    <h3>$<span id="bitcoin-span"></span></h3>
                     <p>Bitcoin</p>
                 </div>
             </div>
             <div class="coin">
                 <img src="./images/ethereum.png">
                 <div>
-                    <h3>$00</h3>
+                    <h3>$<span id="ethereum-span"></span></h3>
                     <p>Ethereum</p>
                 </div>
             </div>
             <div class="coin">
                 <img src="./images/polygon-matic-logo.png">
                 <div>
-                    <h3>$00</h3>
+                    <h3>$<span id="polygon-span"></span></h3>
                     <p>Polygon</p>
                 </div>
             </div>
             <div class="coin">
-                <img src="./images/shiba-inu-shib-logo.png">
+                <img src="./images/usd-coin-usdc-logo.png">
                 <div>
-                    <h3>$00</h3>
-                    <p>Shiba Inu</p>
+                    <h3>$<span id="usdc-span"></span></h3>
+                    <p>USDC</p>
                 </div>
             </div>
             <div class="coin">
                 <img src="./images/solana-sol-logo.png">
                 <div>
-                    <h3>$00</h3>
+                    <h3>$<span id="sol-span"></span></h3>
                     <p>Solana</p>
                 </div>
             </div>
 
+
         </div>
-        <h2>Asset List</h2>
-        <div>
+        <div class="list-container">
+            <h2 class="asset-List-H2">Asset List</h2>
+        </div>
+        <div class="search-container">
+            <div id="searchBar">
+
+                <form action="">
+                    <input type="text" placeholder="Asset name" name="search">
+                    <button type="submit">
+                    </button>
+                </form>
+
+            </div>
+        </div>
+        <div class="containerTwo">
             <table id="crypto-list">
-                <style>
-                    th {
-                        color: goldenrod;
-                    }
-                </style>
-                <th>Bitcoin (BTC)</th>
-                <th>Ethereum (ETH)</th>
-                <th>Tether(USDT)</th>
-                <th>USD Coin(USDC)</th>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Rank</th>
+                        <th>Price</th>
+                        <th>24 Hour Change</th>
+                        <th>Market Cap</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr animate-on-change="coin.price">
+                        <td id="stats"></td>
+                        <td id="stats"></td>
+                        <td id="stats"></td>
+                        <td id="stats"></td>
+                        <td id="stats"></td>
+                    </tr>
+                </tbody>
+
             </table>
+
         </div>
 
 
